@@ -8,17 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wlsf82/cypress-intermediario-v2.git"
+    "url": "git+https://github.com/laramedeiros/cypress-intermediario-v2.git"
   },
   "keywords": [
     "Cypress intermediário",
     "Talking About Testing",
     "E2E Testing"
   ],
-  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "author": "Lara Medeiros",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wlsf82/cypress-intermediario-v2/issues"
+    "url": "https://github.com/laramedeiros/cypress-intermediario-v2/issues"
   },
-  "homepage": "https://github.com/wlsf82/cypress-intermediario-v2#readme"
+  "homepage": "https://github.com/laramedeiros/cypress-intermediario-v2#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.0.2",
+    "cypress-plugin-api": "^2.6.1"
+  }
 }
